@@ -1,0 +1,18 @@
+
+{
+    "autoload": {
+        "files": ["src/PhpFileops/autoload.php"]
+    },
+
+    "require": {
+        "SuRaMoN/relike": "dev-master"
+	},
+
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "https://github.com/SuRaMoN/relike.git"
+		}
+	]
+} 
+
