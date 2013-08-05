@@ -1,0 +1,9 @@
+
+before_commands:
+  - make vendors
+
+tools:
+  php_code_coverage: true
+  php_cpd:
+    excluded_dirs: [tests]
+
